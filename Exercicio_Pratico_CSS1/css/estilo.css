@@ -1,0 +1,33 @@
+body{
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: brown;
+    text-align: center;
+}
+h3{
+    color: cornflowerblue;
+    text-align: center;
+}
+
+.p1{
+    color: orange;
+    font-size: 30px;
+}
+
+.p2{
+    color: orangered;
+    font-size: 30px;
+}
+.p3{
+    color: olivedrab;
+    font-size: 30px;
+}
+
+div{
+    border-style: solid;
+    background-color: #ddd;
+    display: inline;
+}
