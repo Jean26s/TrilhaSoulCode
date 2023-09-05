@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    background-color:#ddd;
+    padding: 10px;
+}
+
+.topnav{
+    margin: 0;
+    background-color: black;
+    padding: 5px;
+}
+
+.topnav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.topnav a:hover{
+    background-color: red;
+}
+
+.lista1{
+    list-style: lower-roman;
+}
+
+.formulario{
+    padding: 20px;
+    width:300px;
+}
+.formulario input{
+    display: block;
+    margin:5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 160px; 
+}
+
+.imag1{
+    display: block;
+    height: 25%;
+    margin-top: 200px;
+    
+}
