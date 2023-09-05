@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(179, 243, 243);
+    font-size:15px;
+}
+
+IMG{
+    margin-left: 43%;
+}
+h1{
+    text-align: center;
+}
+#sobre{
+    border-style: solid;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    left: 23%;
+}
+nav{
+    width: 30%;
+    position: relative;
+    left: 42%;    
+}
+
+a{
+    margin-right: 30px;
+}
+.sobre{
+    position: relative;
+    left: 23%;
+}
+.subtitle{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+div{
+    border-style: solid;
+    padding: 20px 20px 20px 20px;
+}
+
+li{
+    list-style-type: upper-roman;
+}
