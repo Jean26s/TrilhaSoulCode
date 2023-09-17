@@ -1,0 +1,46 @@
+#b1{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+#b2{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+#b3{
+
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+#b4{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+#b5{
+
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#b1:hover{
+    background-color: blue;
+}
+
+#b5:hover{
+    background-color: white;
+}
