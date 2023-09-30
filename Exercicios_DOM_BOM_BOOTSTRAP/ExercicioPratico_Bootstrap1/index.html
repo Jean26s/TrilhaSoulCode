@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Exercicio Pratico BOOTSTRAP</title>
+
+    <style>
+        .carousel-inner > .carousel-item > img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .carousel{
+            width: 300px;
+        }
+        
+        *{
+            box-sizing: border-box;
+        }
+
+        #flexpai{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        @media screen and (max-width:600px) {
+            #flexpai{
+                flex-direction: column;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    
+        <nav class="container navbar navbar-expand-sm navbar-dark bg-dark p-1">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Banco Digital</a>
+                <ul class="navbar-nav fs-5 me-auto">
+            <li class="nav-item">
+            <a href="#" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Fale conosco</a>
+                        </li>
+                </ul>
+    </div>
+</nav>
+
+<div class="container p-3 my-4 border">
+
+    <div class="alert alert-success alert-dismissible">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Banco Digital  </strong>Bem Vindo! 
+    </div>
+
+</div>
+
+
+<div class="container p-3 my-2 border">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, illum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero nisi perferendis harum quidem repellendus hic nihil similique earum architecto explicabo!
+    </div>
+    <div class="container p-3 my-4 border">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur inventore neque nemo laboriosam dolorem maiores aperiam! Facilis numquam neque nostrum!
+    </div>
+    <div class="container p-3 my-4 border">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, illum?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi totam id ab. Deleniti voluptas itaque odio, labore cupiditate error tempore!
+    </div>
+
+    <div id="flexpai" class="container p-3 border" >
+
+
+  
+
+        <div id="demo" class="collapse">
+            Cachorro Adoravel
+         </div>
+
+       <img src="https://picsum.photos/id/237/200/300">
+       <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#demo" >Descrição</button>
+    
+       
+       <img src="https://picsum.photos/seed/picsum/200/300" >
+       <button type="button" class="btn btn-info">Descrição</button>
+    </div>
+
+    <div class="container p-3 my-4 border">
+        
+            <ul class="list-group">
+                <li class="list-group-item">Finanças</li>
+                <li class="list-group-item">Emprestimos</li>
+                <li class="list-group-item">Conta PJ</li>
+            </ul>
+        </div>
+
+        <div class="container p-3 my-4 border">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Clientes</th>
+                        <th>Data</th>
+                        <th>Nota</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jean</td>
+                        <td>23/04/2022</td>
+                        <td>9.8</td>
+                    </tr>
+                    <tr>
+                    <td>Alex</td>
+                    <td>24/07/2023</td>
+                    <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="container border" style="padding-left: 25%;padding-bottom: 10px;">
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="https://i.pravatar.cc/150?img=25"   alt="Imagem aleatoria">
+                </div>
+                <div class="carousel-item">
+                <img src="https://i.pravatar.cc/150?img=24"  alt="Imagem aleatoria">
+                </div>
+                <div class="carousel-item">
+                <img src="https://i.pravatar.cc/150?img=21" alt="Imagem aleatoria">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+        </div>
+   
+
+    <footer class="container text-white bg-dark p-2">
+                <p style="text-align: center;">Todos direitos reservados</p>
+        
+    </footer>
+
+
+      
+</body>
+</html>
